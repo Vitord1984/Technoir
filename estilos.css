@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
+*{
+  font-family: 'Red Hat Display';
+}
+
+body {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+	background-color: #111010;
+	width: 100%;
+	height: 20vh;
+	width: auto;
+}
+
+.busca{
+  background-repeat: no-repeat; 
+  background-color: white;
+  height: 6vh;
+  width: 35vw;
+  position: relative;
+  top: 7.3vh;
+  border-radius: 12vw;
+  margin: 0 auto;
+
+}
+
+.carrinho{
+  background-image: url(carrinho.png);
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background position: center;
+  height: 5.8vh;
+  width: 3vw;
+  left:59vw;
+  top: -5.9vh;
+
+
+}
+
+.lupa{
+  background-image: url("lupa.png");
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background position: center;
+  height: 5.2vh;
+  width: 2.5vw;
+  top: 0.3vh;
+  left: 0.5vw;
+}
+
+.rewind{
+  background-image: url("seta.png");
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background position: center;
+  transform: scaleX(-1);
+  height: 10vh;
+  width: 5vw;
+  top: 14.5vh;
+  left: 4.3vw;
+}
+
+.foward{
+  background-image: url("seta.png");
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background position: center;
+  height: 10vh;
+  width: 5vw;
+  left: 89.3vw;
+  top: 3.2vh;
+}
+
+
+
+
+
+.login{
+  position: relative;
+  height: 4vh;
+  width: 8vw;
+  background-color: #111010;
+  border:solid;
+  border-radius: 0.8vh;
+  border-color: white;
+  border-width: 0.2vw;
+  font-size: 2.5vh;
+  top:-50;
+  color:white;
+  text-align: center;
+  text:middle;
+
+  
+}
+
+#cadastro{
+  position: relative;
+  left: 70vw;
+  top:2vh;
+}
+#login1{
+  position: relative;
+  left: 80vw;
+  top:-2.7vh;
+}
+
+.fundo {
+  background-image: url(background.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.logo {
+  background-image: url(logomarca.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; /* Ajuste a posição da imagem */
+  height: 20vh; /* Defina a altura desejada em relação à altura da viewport */
+  width: 20vw; /* Defina a largura desejada em relação à largura da viewport */
+  position: relative;
+  top: -95px;
+  left: 7vw;
+}
+
+.menu{
+  height: 6vh;
+  width: 100%;
+  background-color: #CE4993;
+  text-align: center;
+  color: white;
+  font-family: 'Red Hat Display';
+}
+
+.menu ul li{
+  text-align: center;
+  display: inline;
+  padding: 0px 20px;
+  font-size: 1.6rem;
+  position: relative;
+  top: -18px;
+}
+
+.banner{
+  background-image: url("games.png");
+  background-color: #111010;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; /* Ajuste a posição da imagem */
+  height: 4vh; /* Defina a altura desejada em relação à altura da viewport */
+  width: 100%; /* Defina a largura desejada em relação à largura da viewport */
+  position: relative;
